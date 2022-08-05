@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gethacked.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="subscribe instance0000" x="5" y="5" width="320" height="148"/>
+	<SubTexture name="exit instance0000" x="5" y="163" width="320" height="148"/>
+</TextureAtlas>
