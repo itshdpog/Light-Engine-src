@@ -51,7 +51,7 @@ class HackedState extends MusicBeatState
 		tSpr.screenCenter();
 		tSpr.antialiasing = true;
 
-			txt = new FlxText(0, 0, FlxG.width, "HEY! ImHD has hacked your game!\nThats very unfortunate...\nThe only way to go back to playing is by subscribing to ImHD.\n(Pressing B is useless until subscribing)", 32);
+			txt = new FlxText(0, 0, FlxG.width, "HEY! Just Maddie has hacked your game!\nThats very unfortunate...\nThe only way to go back to playing is by subscribing to ImHD.\n(Pressing B is useless until subscribing)", 32);
 			if (cleanfont_isenabled)
 			{
 				txt.setFormat(Paths.font("coolvetica.ttf"), 32, FlxColor.fromRGB(200, 200, 200), CENTER);
@@ -92,7 +92,7 @@ class HackedState extends MusicBeatState
 				txt.text = "Please subscribe to ImHD first.";
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					txt.text = "HEY! ImHD has hacked your game!\nThats very unfortunate...\nThe only way to go back to playing is by subscribing to ImHD.\n(Pressing B is useless until subscribing)";
+					txt.text = "HEY! Just Maddie has hacked your game!\nThats very unfortunate...\nThe only way to go back to playing is by subscribing to ImHD.\n(Pressing B is useless until subscribing)";
 					tSpr.visible = false;
 				});
 			}
