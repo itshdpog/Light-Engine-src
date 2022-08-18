@@ -12,10 +12,10 @@ import flixel.util.FlxTimer;
 
 class CreditsMenu extends MusicBeatState
 {
-    var textMenuItems:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
-    var textMenuItemsOG:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
+    var textMenuItems:Array<String> = ['Just Maddie', 'Poyo', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
+    var textMenuItemsOG:Array<String> = ['Just Maddie', 'Poyo', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
     var deadMenuItems:Array<String> = ['DEAD0', 'DEAD1', 'DEAD2', 'DEAD3', 'DEAD4', 'DEAD5', 'DEAD6', 'DEAD7', 'DEAD8'];
-    var secretItems:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss', 'RUN AWAY'];
+    var secretItems:Array<String> = ['Just Maddie', 'Poyo', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss', 'RUN AWAY'];
 
     private var desc:FlxText;
     var txt:FlxText;
@@ -221,7 +221,7 @@ class CreditsMenu extends MusicBeatState
                 case "Just Maddie":
                     FlxG.openURL("www.youtube.com/c/JustMaddieBaddie");
                     step1 = true;
-                case "RecoloredPoyo4":
+                case "Poyo":
                     FlxG.openURL("https://www.youtube.com/channel/UCRB_pRbpYPjrUpnQyPUVG5w");
                     if (step1)
                     {
@@ -355,8 +355,8 @@ class CreditsMenu extends MusicBeatState
         switch(textMenuItems[curSelected]) {
             case 'Just Maddie':
                 desc.text = "Maddie, The Current owner and a Coder of the Light Engine.";
-            case 'RecoloredPoyo4':
-                desc.text = "RecoloredPoyo4, Co owner and a Coder of the Light Engine.";
+            case 'Poyo':
+                desc.text = "Poyo, Co owner and a Coder of the Light Engine.";
             case 'Wyxos':
                 desc.text = "Wyxos, The Creator and Former owner of the Light Engine.";
             case 'Xinox':

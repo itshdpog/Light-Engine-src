@@ -269,7 +269,7 @@ class PreferencesState extends MusicBeatState
 					case 'wyx remixes':
 						notice2.text = "If checked, only wyxos' remixes will be on freeplay and story mode.";
 					case 'jamey skin':
-						notice2.text = "If checked, boyfriend will become jamey, a bf recolor made by recoloredpoyo4.";
+						notice2.text = "If checked, boyfriend will become jamey, a bf recolor made by Poyo.";
 					case 'catgirl gf skin':
 						notice2.text = "If checked, girlfriend will become a catgirl.";
 					case 'hitsounds':

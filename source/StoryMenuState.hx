@@ -216,7 +216,7 @@ class StoryMenuState extends MusicBeatState
 			}
 			else
 			{
-				rankText.text = 'BY MADDIE, WYXOS & RECOLOREDPOYO4';
+				rankText.text = 'BY MADDIE, WYXOS & Poyo';
 			}
 			rankText.setFormat(Paths.font("coolvetica.ttf"), 32);
 			rankText.size = scoreText.size;
@@ -244,7 +244,7 @@ class StoryMenuState extends MusicBeatState
 			}
 			else
 			{
-				rankText.text = 'BY MADDIE, WYXOS & RECOLOREDPOYO4';
+				rankText.text = 'BY MADDIE, WYXOS & Poyo';
 			}
 			rankText.setFormat(Paths.font("vcr.ttf"), 32);
 			rankText.size = scoreText.size;
