@@ -437,7 +437,7 @@ class TitleState extends MusicBeatState
 				case 14:
 					addMoreText('By');
 				case 15:
-					addMoreText('a lonely fourteen year old');
+					addMoreText('Some Lonely teens');
 				case 16:
 					skipIntro();
 			}
