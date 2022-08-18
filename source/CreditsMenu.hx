@@ -12,10 +12,10 @@ import flixel.util.FlxTimer;
 
 class CreditsMenu extends MusicBeatState
 {
-    var textMenuItems:Array<String> = ['Wyxos', 'RecoloredPoyo4', 'ImHD', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
-    var textMenuItemsOG:Array<String> = ['Wyxos', 'RecoloredPoyo4', 'ImHD', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
+    var textMenuItems:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
+    var textMenuItemsOG:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss'];
     var deadMenuItems:Array<String> = ['DEAD0', 'DEAD1', 'DEAD2', 'DEAD3', 'DEAD4', 'DEAD5', 'DEAD6', 'DEAD7', 'DEAD8'];
-    var secretItems:Array<String> = ['Wyxos', 'RecoloredPoyo4', 'ImHD', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss', 'RUN AWAY'];
+    var secretItems:Array<String> = ['Just Maddie', 'RecoloredPoyo4', 'Wyxos', 'Xinox', 'Luckydog7', 'ZacksGamerz', 'ShadowMario', 'Kade Dev', 'Tr1NgleBoss', 'RUN AWAY'];
 
     private var desc:FlxText;
     var txt:FlxText;
@@ -116,7 +116,7 @@ class CreditsMenu extends MusicBeatState
 	{
         super();
 
-        desc = new FlxText(0, 0, 0,"Wyxos, The Creator and a Coder of the Light Engine.", 24);
+        desc = new FlxText(0, 0, 0,"Just Maddie, Current Owner And Coder of the Light Engine.", 24);
 
 		grpOptionsTexts = new FlxTypedGroup<FlxText>();
 
@@ -218,8 +218,8 @@ class CreditsMenu extends MusicBeatState
             FlxG.sound.play(Paths.sound('confirmMenu'));
             switch (textMenuItems[curSelected])
             {
-                case "Wyxos":
-                    FlxG.openURL("https://youtube.com/c/Wyxos");
+                case "Just Maddie":
+                    FlxG.openURL("www.youtube.com/c/JustMaddieBaddie");
                     step1 = true;
                 case "RecoloredPoyo4":
                     FlxG.openURL("https://www.youtube.com/channel/UCRB_pRbpYPjrUpnQyPUVG5w");
@@ -227,8 +227,8 @@ class CreditsMenu extends MusicBeatState
                     {
                         step2 = true;
                     }
-                case "ImHD":
-                    FlxG.openURL("https://www.youtube.com/channel/UCytrUvU8dtwHZeyLRXTt45A");
+                case "Wyxos":
+                    FlxG.openURL("https://youtube.com/c/Wyxos");
                     if (step2)
                     {
                         step3 = true;
@@ -353,12 +353,12 @@ class CreditsMenu extends MusicBeatState
             trace(curSelected);
 
         switch(textMenuItems[curSelected]) {
-            case 'Wyxos':
-                desc.text = "Wyxos, The Creator and Coder of the Light Engine.";
+            case 'Just Maddie':
+                desc.text = "Maddie, The Current owner and a Coder of the Light Engine.";
             case 'RecoloredPoyo4':
-                desc.text = "RecoloredPoyo4, A Friend and Optimizer of the Light Engine.";
-            case 'ImHD':
-                desc.text = "ImHD, A Friend and Helper of the Light Engine.";
+                desc.text = "RecoloredPoyo4, Co owner and a Coder of the Light Engine.";
+            case 'Wyxos':
+                desc.text = "Wyxos, The Creator and Former owner of the Light Engine.";
             case 'Xinox':
                 desc.text = "Xinox, A Friend and the one who made the new Logo.";
             case 'Luckydog7':
