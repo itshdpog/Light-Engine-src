@@ -10,6 +10,9 @@ import ui.FlxVirtualPad;
 
 class CreditSubState extends MusicBeatState
 {
+
+        var screenJustTouched:Bool = false;
+
 	public static var leftState:Bool = false;
 
 	var cleanfont_isenabled:Bool = false;
