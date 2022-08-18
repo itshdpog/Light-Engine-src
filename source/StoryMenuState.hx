@@ -212,11 +212,11 @@ class StoryMenuState extends MusicBeatState
 			// 22/100 chance funi easter egg
 			if (FlxG.random.bool(22))
 			{
-				rankText.text = 'BY CODERLOCK & B-SIDES RIPOFF';
+				rankText.text = 'BY BITCH, CODERLOCK & ROBLOX CHARACTER';
 			}
 			else
 			{
-				rankText.text = 'BY WYXOS & RECOLOREDPOYO4';
+				rankText.text = 'BY MADDIE, WYXOS & RECOLOREDPOYO4';
 			}
 			rankText.setFormat(Paths.font("coolvetica.ttf"), 32);
 			rankText.size = scoreText.size;
@@ -240,11 +240,11 @@ class StoryMenuState extends MusicBeatState
 			// 22/100 chance funi easter egg
 			if (FlxG.random.bool(22))
 			{
-				rankText.text = 'BY CODERLOCK & B-SIDES RIPOFF';
+				rankText.text = 'BY BITCH, CODERLOCK & ROBLOX CHARACTER';
 			}
 			else
 			{
-				rankText.text = 'BY WYXOS & RECOLOREDPOYO4';
+				rankText.text = 'BY MADDIE, WYXOS & RECOLOREDPOYO4';
 			}
 			rankText.setFormat(Paths.font("vcr.ttf"), 32);
 			rankText.size = scoreText.size;

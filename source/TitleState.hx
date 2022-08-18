@@ -48,9 +48,10 @@ class TitleState extends MusicBeatState
 		FlxG.android.preventDefaultKeys = [BACK];
 		#end
 		
-		#if polymod
+		//RE ENABLE IF POLYMOD WORKS ON ANDROID
+		/*#if polymod
 		polymod.Polymod.init({modRoot: "mods", dirs: ['introMod']});
-		#end
+		#end*/
 		
 		PlayerSettings.init();
 
@@ -488,7 +489,7 @@ class TitleState extends MusicBeatState
 			case 14:
 				addMoreText('By');
 			case 15:
-				addMoreText('Wyxos');
+				addMoreText('Wyxos, Just Maddie, and Poyo');
 
 			case 16:
 				skipIntro();

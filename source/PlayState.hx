@@ -3757,7 +3757,6 @@ class PlayState extends MusicBeatState
 		{
 			if (!note.isSustainNote)
 			{
-				popUpScore(note.strumTime, note);
 				popUpScore(note);
 				combo += 1;
 				notehit++;
