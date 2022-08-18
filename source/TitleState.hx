@@ -318,7 +318,7 @@ class TitleState extends MusicBeatState
 
 			new FlxTimer().start(2, function(tmr:FlxTimer)
 			{
-				// 5/100 chance ImHD easter egg lol
+				// 5/100 chance Just Maddie easter egg lol
 				if (FlxG.random.bool(8))
 				{
 					FlxG.switchState(new HackedState());
