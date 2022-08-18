@@ -41,9 +41,6 @@ import lime.utils.Assets;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
 import openfl.filters.ShaderFilter;
-#if mobile
-import mobilecontrols.Mobilecontrols;
-#end
 import ui.FlxVirtualPad;
 
 using StringTools;
