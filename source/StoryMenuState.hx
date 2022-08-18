@@ -117,7 +117,7 @@ class StoryMenuState extends MusicBeatState
 				"Spooky Month"
 			];
 		}
-		else if (nomods_isenabled)
+		else
 		{
 				weekData = [
 				['Tutorial'],
@@ -127,7 +127,7 @@ class StoryMenuState extends MusicBeatState
 				['Satin-Panties', "High", "Milf"],
 				['Cocoa', 'Eggnog', 'Winter-Horrorland'],
 				['Senpai', 'Roses', 'Thorns'],
-				['Ugh', 'Guns', 'Stress'],
+				['Ugh', 'Guns', 'Stress']
 			];
 
 				weekCharacters = [
@@ -150,47 +150,6 @@ class StoryMenuState extends MusicBeatState
 				"RED SNOW",
 				"hating simulator ft. moawling",
 				"TANKMAN"
-			];
-		}
-		else
-		{
-				weekData = [
-				['Tutorial'],
-				['Bopeebo', 'Fresh', 'Dadbattle'],
-				['Spookeez', 'South', "Monster"],
-				['Pico', 'Philly', "Blammed"],
-				['Satin-Panties', "High", "Milf"],
-				['Cocoa', 'Eggnog', 'Winter-Horrorland'],
-				['Senpai', 'Roses', 'Thorns'],
-				['Ugh', 'Guns', 'Stress'],
-				['Faraday', 'Mutiliation', 'Dollhouse', 'Interaction', 'Spyware'],
-				['Headache', 'Nerves', 'Release', 'Fading']
-			];
-
-				weekCharacters = [
-				['dad', 'bf', 'gf'],
-				['dad', 'bf', 'gf'],
-				['spooky', 'bf', 'gf'],
-				['pico', 'bf', 'gf'],
-				['mom', 'bf', 'gf'],
-				['parents-christmas', 'bf', 'gf'],
-				['senpai', 'bf', 'gf'],
-				['tankman', 'bf', 'gf'],
-				['sandbox', 'bf', 'gf'],
-				['garcello', 'bf', 'gf']
-			];
-
-				weekNames = [
-				"HOW TO FUNK",
-				"Daddy Dearest",
-				"Spooky Month",
-				"PICO",
-				"MOMMY MUST MURDER",
-				"RED SNOW",
-				"hating simulator ft. moawling",
-				"TANKMAN",
-				"Sandbox Games",
-				"SMOKE 'EM OUT STRUGGLE"
 			];
 		}
 

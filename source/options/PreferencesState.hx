@@ -17,7 +17,7 @@ class PreferencesState extends MusicBeatState
 
     var curSelected:Int = 0;
 
-	var menuItems:Array<String> = ['downscroll', 'middlescroll', 'ghost tapping', 'practice', 'no mods', 'no flashing', 'no hud', 'camzoom out', 'notesplash', 'light cpu strums', 'progress bar', 'clean font', 'wyx remixes', 'jamey skin', 'catgirl gf skin', 'hitsounds', 'pause button'];
+	var menuItems:Array<String> = ['downscroll', 'middlescroll', 'ghost tapping', 'practice', 'no flashing', 'no hud', 'camzoom out', 'notesplash', 'light cpu strums', 'progress bar', 'clean font', 'wyx remixes', 'jamey skin', 'catgirl gf skin', 'hitsounds', 'pause button'];
 
 	var notice:FlxText;
 	private var notice2:FlxText;
@@ -67,8 +67,6 @@ class PreferencesState extends MusicBeatState
 					ch.change(config.practice);
 				//case "panorama menu":
 					//ch.change(config.panorama);
-				case "no mods":
-					ch.change(config.nomods);
 				case "no flashing":
 					ch.change(config.noflashing);
 				case "no hud":
@@ -186,8 +184,6 @@ class PreferencesState extends MusicBeatState
 					config.practice = checkboxGroup.members[curSelected].change();
 				//case "panorama menu":
 					//config.panorama = checkboxGroup.members[curSelected].change();
-				case "no mods":
-					config.nomods = checkboxGroup.members[curSelected].change();
 				case "no flashing":
 					config.noflashing = checkboxGroup.members[curSelected].change();
 				case "no hud":
@@ -250,8 +246,6 @@ class PreferencesState extends MusicBeatState
 						notice2.text = "If checked, you will never lose health, for practicing purposes.";
 					//case 'panorama menu':
 						//notice2.text = "If checked, the menu will have a panorama-type look to it, still a W.I.P.";
-					case 'no mods':
-						notice2.text = "If checked, there will be no mods in-game, mostly on the menus.";
 					case 'no flashing':
 						notice2.text = "If checked, there will be no flashing lights on the menus.";
 					case 'no hud':
