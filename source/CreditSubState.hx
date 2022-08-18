@@ -30,7 +30,7 @@ class CreditSubState extends MusicBeatState
 		
 		var txt:FlxText = new FlxText(0, 0, FlxG.width,
 			"HEY! Thanks for Downloading Alpha 0.3.3 of the Light Engine!\nThe Engine is still being Developed.\nSo you might encounter bugs, and if you do...\nPlease Report them to me (Wyxos)."
-			+ "\n! Press Space/A to go to Wyxos' Channel, or ESCAPE/B to ignore this!!"
+			+ "\n! Press screen to complete."
 			+ "\n- Wyxos and the Dev Team.", 32);
 			if (cleanfont_isenabled)
 			{
@@ -54,12 +54,16 @@ class CreditSubState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{	
-
-		if (controls.ACCEPT)
+		for (touch in FlxG.touches.list)
 		{
-			FlxG.openURL("https://youtube.com/c/Wyxos");
+			screenJustTouched = false;
+			
+			if (touch.justReleased){
+				screenJustTouched = true;
+			}
 		}
-		if (controls.BACK)
+
+		if (screenJustTouched)
 		{
 			leftState = true;
 			FlxG.switchState(new MainMenuState());
